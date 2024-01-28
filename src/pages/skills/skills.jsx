@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Greeting from "../../containers/greeting/Greeting";
+import SkillList from "../../containers/skills/Skills";
 import TopButton from "../../components/topButton/TopButton";
 
-class Home extends Component {
+class Skills extends Component {
   render() {
     return (
       <div>
         <Header theme={this.props.theme} />
-        <Greeting theme={this.props.theme} />
+        <SkillList theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );
   }
 }
 
-export default Home;
+export default Skills;

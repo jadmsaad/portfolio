@@ -93,3 +93,9 @@
     justify-content: center;
   }
 }
+
+.resume-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: "flex-start";
+}
