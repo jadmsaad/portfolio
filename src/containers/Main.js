@@ -14,6 +14,7 @@ export default class Main extends Component {
       <BrowserRouter basename="/">
         <Switch>
           <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/portfolio" to="/home" />
           <Route
             path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
